@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QloveR Radio Player</string>
+    <string name="notification_channel">再生中</string>
+</resources>

@@ -40,7 +40,8 @@ QloveR（文化放送、https://qlover.jp/ ）には、公式の公開ストリ�
 # APK: app/build/outputs/apk/debug/app-debug.apk
 ```
 
-> 注意：この環境（MuseのVM）にはAndroid SDKがなく、Gradleデーモン間通信も動かないため、ここではコンパイルしていません。Android Studioでのビルドが必要です。
+> ビルド確認済み：`./gradlew assembleDebug` / `assembleRelease` とも成功（Gradle 8.11.1 / AGP 8.7.3 / Kotlin 2.0.21 / JDK 21 / Android SDK 35）。
+> Kotlin 2.0以降ではCompose Compilerは `org.jetbrains.kotlin.plugin.compose` プラグインで適用する（`composeOptions.kotlinCompilerExtensionVersion` は使わない）。
 
 ## 使い方
 
